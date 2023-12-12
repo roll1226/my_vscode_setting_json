@@ -109,7 +109,6 @@
     "**/node_modules": true
   },
   "editor.semanticTokenColorCustomizations": {},
-  "codic.ACCESS_TOKEN": "SLx1EEVbcJhwzZK37tdl2XTtmBIEqEJ64N",
   "codic.case": "camelCase",
   "editor.fontFamily": "'PlemolJP-Text', Menlo, Monaco, 'Courier New', monospace",
   "svelte.enable-ts-plugin": true,
