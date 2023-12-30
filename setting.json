@@ -72,7 +72,7 @@
   },
   "editor.minimap.maxColumn": 60,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -131,7 +131,6 @@
   "workbench.tree.indent": 16,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.rightClickBehavior": "paste",
-  "editor.cursorStyle": "block",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#54DEFD",
     "terminalCursor.foreground": "#54DEFD"
@@ -141,12 +140,14 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "[python]": {
     "editor.formatOnType": true
@@ -168,18 +169,5 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "vscode-neovim.highlightGroups.highlights": {
-    "IncSearch": {
-      "backgroundColor": "theme.editor.findMatchBackground",
-      "borderColor": "theme.editor.findMatchBorder"
-    },
-    "Search": {
-      "backgroundColor": "theme.editor.findMatchHighlightBackground",
-      "borderColor": "theme.editor.findMatchHighlightBorder"
-    },
-    "Visual": {
-      "backgroundColor": "theme.editor.selectionBackground"
-    }
-  },
-  "editor.fontLigatures": false
+  "editor.fontLigatures": false,
 }
