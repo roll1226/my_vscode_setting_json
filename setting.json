@@ -109,7 +109,6 @@
     "**/node_modules": true
   },
   "editor.semanticTokenColorCustomizations": {},
-  "codic.case": "camelCase",
   "editor.fontFamily": "'PlemolJP-Text', Menlo, Monaco, 'Courier New', monospace",
   "svelte.enable-ts-plugin": true,
   "editor.bracketPairColorization.enabled": true,
@@ -140,9 +139,7 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -170,4 +167,6 @@
     "asvetliakov.vscode-neovim": 1
   },
   "editor.fontLigatures": false,
+  "vim.useSystemClipboard": true,
+  "cSpell.userWords": ["pinia"]
 }
