@@ -73,6 +73,7 @@
   "editor.minimap.maxColumn": 60,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
+    "source.organizeImports": "explicit"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
