@@ -169,5 +169,25 @@
   },
   "editor.fontLigatures": false,
   "vim.useSystemClipboard": true,
-  "cSpell.userWords": ["pinia"]
+  "cSpell.userWords": [
+    "codegen",
+    "golevelup",
+    "hasura",
+    "laravel",
+    "pinia"
+  ],
+  "cSpell.ignoreWords": [
+    "typeorm",
+    "firestore",
+    "consts"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "vscode_custom_css.imports": [
+    "file:///Users/roll1226/vscode/vscode-sawaratsuki-logo.css"
+  ],
+  "prisma.showPrismaDataPlatformNotification": false,
 }

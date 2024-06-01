@@ -1,0 +1,17 @@
+.editor-group-watermark {
+  max-width: 400px !important;
+}
+
+.editor-group-watermark > .letterpress {
+  aspect-ratio: 1920/1080 !important;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/roll1226.appspot.com/o/logo%2FGMLSUlta8AABfac.png?alt=media&token=6e8a9afb-5c3f-425f-96c6-d2d22d4ce8de") !important;
+  background-position: center;
+}
+
+.editor-group-watermark > .shortcuts::before {
+  display: block;
+  text-align: center;
+  opacity: 0.5;
+  white-space: pre-wrap;
+  content: "Logo artwork by @sawaratsuki1004\aGitHub SAWARATSUKI/ServiceLogos";
+}
